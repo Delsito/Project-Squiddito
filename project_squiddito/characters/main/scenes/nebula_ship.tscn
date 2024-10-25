@@ -1,6 +1,11 @@
+<<<<<<< HEAD
 [gd_scene load_steps=35 format=3 uid="uid://bgrxpt8wy6rjm"]
 
 [ext_resource type="Script" path="res://characters/main/scenes/nebula_ship.gd" id="1_6g4q1"]
+=======
+[gd_scene load_steps=34 format=3 uid="uid://bgrxpt8wy6rjm"]
+
+>>>>>>> origin/master
 [ext_resource type="Texture2D" uid="uid://b21mx7nneexlv" path="res://art/ships/main/nebula/Ship-Nebula - Sprite Sheet.png" id="1_62drw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_meco7"]
@@ -249,8 +254,16 @@ animations = [{
 }]
 
 [node name="Node2D" type="Node2D"]
+<<<<<<< HEAD
 script = ExtResource("1_6g4q1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_iha7j")
 animation = &"explosion"
+=======
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_iha7j")
+animation = &"idle"
+frame_progress = 0.741356
+>>>>>>> origin/master
