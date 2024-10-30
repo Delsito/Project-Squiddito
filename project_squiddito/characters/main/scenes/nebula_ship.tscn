@@ -1,6 +1,6 @@
 [gd_scene load_steps=35 format=3 uid="uid://bgrxpt8wy6rjm"]
 
-[ext_resource type="Script" path="res://characters/main/scenes/nebula_ship.gd" id="1_6g4q1"]
+[ext_resource type="Script" path="res://characters/main/scripts/nebula_ship.gd" id="1_6g4q1"]
 [ext_resource type="Texture2D" uid="uid://b21mx7nneexlv" path="res://art/ships/main/nebula/Ship-Nebula - Sprite Sheet.png" id="1_62drw"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_meco7"]
@@ -251,6 +251,8 @@ animations = [{
 [node name="Node2D" type="Node2D"]
 script = ExtResource("1_6g4q1")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="Ship" type="AnimatedSprite2D" parent="."]
+position = Vector2(55, 47.5)
+scale = Vector2(4.4375, 3.96875)
 sprite_frames = SubResource("SpriteFrames_iha7j")
 animation = &"explosion"
